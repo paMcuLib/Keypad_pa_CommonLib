@@ -16,8 +16,6 @@ public:
 	void (*keypadCallback)(unsigned char x, unsigned char y);
 	/*void setKeypadCallback(void (*keypadCallback)(unsigned char x, unsigned char y));*/
 private:
-	char Keypad_Output_Cnt = 4;
-	char Keypad_Input_Cnt = 4;
 	short Keypad_Trig_Cnt = 100; //修改这个来调整按键灵敏度
 
 	void hardwareInit();

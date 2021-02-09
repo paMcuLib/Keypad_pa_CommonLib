@@ -38,10 +38,10 @@ void pa_Keypad::loop()
 {
 	if (isPullup)
 	{
-		for (int i = 0; i < Keypad_Output_Cnt; i++)
+		for (int i = 0; i < keypad_row; i++)
 		{
 			setOutput(i, 0);
-			for (int j = 0; j < Keypad_Input_Cnt; j++)
+			for (int j = 0; j < keypad_col; j++)
 			{
 				if (!readInput(j))
 				{
