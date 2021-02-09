@@ -8,7 +8,7 @@
 #include "paLib/drv/pa_BaseDrv/pa_BaseDrv.h"
 
 // #include "pa_Keypad_drv.h"
-
+#if INPUT_USE_KEYPAD
 class pa_Keypad
 {
 public:
@@ -31,6 +31,5 @@ private:
 	bool isPullup;
 	unsigned char keyStateArr[keypad_row][keypad_col];
 };
-
 #endif
 #endif
