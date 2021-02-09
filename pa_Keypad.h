@@ -1,14 +1,11 @@
-#include "all_config.h"
-
-#if INPUT_USE_KEYPAD
+#include "paLib/drv/pa_BaseDrv/pa_BaseDrv.h"
 
 #ifndef __pa_Keypad_H__
 #define __pa_Keypad_H__
 
-#include "paLib/drv/pa_BaseDrv/pa_BaseDrv.h"
+#if INPUT_USE_KEYPAD
 
 // #include "pa_Keypad_drv.h"
-#if INPUT_USE_KEYPAD
 class pa_Keypad
 {
 public:
