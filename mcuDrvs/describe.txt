@@ -1,0 +1,11 @@
+INPUT_USE_KEYPAD|0
+keypad_row|4
+keypad_col|4
+keypad_row1
+keypad_row2
+keypad_row3
+keypad_row4
+keypad_col1
+keypad_col2
+keypad_col3
+keypad_col4
